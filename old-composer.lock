@@ -1,25 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
-        "This file is @generated automatically"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "199f5850e1151bb675ba29e0c9e5611c",
-    "content-hash": "6cb4f4e45e48bd7acb2653584890e8d3",
+    "hash": "bd3448950b1c0d1af1c6bdbdc6bd225f",
     "packages": [
         {
             "name": "atk4/atk4",
-            "version": "4.3.2",
+            "version": "4.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/atk4.git",
-                "reference": "0eb774a28165db5cca5b0520851d212f11ade6f9"
+                "reference": "origin/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/atk4/zipball/0eb774a28165db5cca5b0520851d212f11ade6f9",
-                "reference": "0eb774a28165db5cca5b0520851d212f11ade6f9",
-                "shasum": ""
+                "url": "http://agiletoolkit.org/distfiles/agiletoolkit-4.2.4.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "autoload": {
@@ -31,38 +29,35 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "homepage": "https://agiletoolkit.org/",
             "keywords": [
                 "atk4",
                 "framework"
             ],
-            "time": "2016-02-29 12:21:49"
+            "time": "2014-11-03 03:09:22"
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "0.3.10",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4"
+                "reference": "c6e88ca6e81bc5a2d7161658e16a95b7ef8d6ad1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
-                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c6e88ca6e81bc5a2d7161658e16a95b7ef8d6ad1",
+                "reference": "c6e88ca6e81bc5a2d7161658e16a95b7ef8d6ad1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.0.0"
             },
             "require-dev": {
-                "phing/phing": "~2.7",
-                "phpunit/phpunit": "~4.0",
-                "sami/sami": "~2.0",
-                "squizlabs/php_codesniffer": "~1.5"
+                "phing/phing": "2.7.*",
+                "phpunit/phpunit": "4.0.*",
+                "sami/sami": "1.*",
+                "squizlabs/php_codesniffer": "1.*"
             },
             "suggest": {
                 "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
@@ -137,15 +132,16 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2015-01-28 21:50:33"
+            "time": "2014-11-10 03:08:59"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
+    "stability-flags": {
+        "atk4/atk4": 20,
+        "phpseclib/phpseclib": 20
+    },
     "platform": [],
     "platform-dev": []
 }

@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 MAINTAINER Romans <me@nearly.guru>
 
 # Install base packages
