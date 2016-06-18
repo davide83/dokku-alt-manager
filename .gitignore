@@ -16,4 +16,3 @@ VERSION
 .composer
 /db/*
 /dist
-old-composer.lock
