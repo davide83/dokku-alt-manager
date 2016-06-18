@@ -17,3 +17,4 @@ VERSION
 .idea
 .composer
 /db/*
+old-composer.lock
